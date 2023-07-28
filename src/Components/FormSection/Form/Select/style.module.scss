@@ -1,0 +1,21 @@
+.selectBox{
+    display: flex;
+    flex-direction: column;
+    gap: .35rem;
+    border-radius: 8px;
+    align-items: flex-start;
+    border: 2px solid var(--color-gray-1);
+    
+
+    select{
+        font-family: var(--font-primary-1);
+        font-size: 0.75rem;
+        font-weight: 400;
+        color:var(--color-gray-3);
+        line-height: 1.625rem;
+        padding: 0 1.2rem;
+        height: 2.875rem;
+        background: var(--color-gray-1);
+        width:100%;
+    }
+}

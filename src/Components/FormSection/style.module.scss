@@ -1,0 +1,7 @@
+.formSectionBox{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width: clamp(250px,100%,355px);
+    
+}

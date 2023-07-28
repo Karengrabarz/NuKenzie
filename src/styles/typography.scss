@@ -1,0 +1,37 @@
+.title{
+    font-family: var(--font-family-2);
+    font-weight: 700;
+    line-height: 1.4;
+
+    &.two{
+        font-size: 1.375rem;
+        color: var(--color-grey-3);
+        
+    }
+    &.three{
+        font-size: 1rem;
+        color:var(--color-grey-4)
+    }
+    &.center{
+        text-align: center;
+    }
+}
+.paragraph{
+    font-family: var(--font-family-2);
+    font-size: 0.75rem;
+    font-weight: 400;
+    &.grey4{
+        color: var(--color-grey-4);
+    }
+    &.grey-50{
+        color: var(--color-grey-50);
+    }
+    
+}
+.paragraphPink{
+    font-family: var(--font-family-2);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    color: var(--color-primary);
+}

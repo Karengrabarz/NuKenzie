@@ -1,0 +1,18 @@
+.listSectionBox{
+    display: flex;
+    flex-direction: column;
+    width: clamp(250px, 100%, 560px);
+    h2{
+        margin-top: 1.1875rem;
+        margin-bottom: 1.5625rem;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+
+    }
+    h2{
+        max-width: 550px;
+    }
+}

@@ -1,0 +1,26 @@
+.homePageBox{
+    padding: 3rem 0;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    & > section{
+        width: clamp(0px, 100%, 355px);
+    }
+
+    & > div{
+        width: clamp(0px, 100%, 560px);
+        flex-grow: 1;
+    }
+    @media(min-width:768px){
+        padding: 3rem 0;
+        display: flex;
+        gap: 2.5rem;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+}
