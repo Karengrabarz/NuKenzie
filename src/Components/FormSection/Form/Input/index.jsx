@@ -1,6 +1,6 @@
 import styles from "./style.module.scss";
 
-export const Input = ({ label, id, type, placeholder, value, setValue }) => {
+export const Input = ({ label, id, type, placeholder, value, setValue,required }) => {
   return (
     <div className={styles.inputBox}>
       <label className="paragraph" htmlFor={id}>
@@ -12,6 +12,7 @@ export const Input = ({ label, id, type, placeholder, value, setValue }) => {
         name={id}
         value={value}
         onChange={(event) => setValue(event.target.value)}
+        required={required}
       />
     </div>
   );
